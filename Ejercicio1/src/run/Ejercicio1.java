@@ -1,5 +1,7 @@
 package run;
 
+import models.Person;
+
 public class Ejercicio1
 {
     public static void main(String[] args)
@@ -7,8 +9,8 @@ public class Ejercicio1
         Person person = new Person();
 
         //Asignar valores a los atributos
-        person.nombre = "Allan";
-        person.edad = 18;
+        person.name = "Allan";
+        person.age = 18;
 
         //Mostrar datos
         System.out.println(person.mostrarDatos());
